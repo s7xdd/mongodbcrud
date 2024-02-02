@@ -42,6 +42,7 @@ const AddTopic = () => {
     }
 
     return (
+        <div className="flex justify-center">
         <form onSubmit={handleSubmit} className="border-slate-800 py-8">
             
             <input 
@@ -62,10 +63,11 @@ const AddTopic = () => {
 
             <button 
                 type="submit"
-                className="border bg-green-600 text-white py-2 px-4 mt-3"
+                className="border bg-green-600 text-white py-2 px-4 mt-3 ml-20"
             >Add Topic</button>
 
         </form>
+        </div>
     );
 }
 
